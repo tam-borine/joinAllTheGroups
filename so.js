@@ -1,8 +1,8 @@
 (function(document) {
   var groups = document.getElementsByClassName(".groupCard tileGrid-tile loading ");
   alert("i work");
-  groups.forEach(function(){
-    console.log(group)
-  })
+  for (var i = 0; i < groups.length; i++) {
+      console.log(groups[i]);
+    }
   console.log(groups)
 })(document);
