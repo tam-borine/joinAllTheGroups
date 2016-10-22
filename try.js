@@ -1,4 +1,4 @@
 (function(window) {
   alert("work")
-  console.log(window.document.body.C_page.lt);
+  console.log(window.document.lt);
 })(window);
