@@ -1,5 +1,4 @@
 (function(window) {
   alert("work")
-  console.log(window.document);
-  console.log(this);
+  console.log(window.document.body);
 })(window);
