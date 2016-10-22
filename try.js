@@ -1,4 +1,4 @@
 (function(window) {
   alert("work")
-  console.log(window.document.lt);
+  console.log(window.document.getElementsByClassName('lt'));
 })(window);
