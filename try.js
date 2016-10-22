@@ -1,4 +1,4 @@
 (function(window) {
   alert("work")
-  console.log(window.document.getElementsByClassName('lt').C_page.children);
+  console.log(window.document.getElementsByClassName('lt')[0].children);
 })(window);
